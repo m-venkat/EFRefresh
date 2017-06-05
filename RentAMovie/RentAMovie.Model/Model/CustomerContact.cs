@@ -1,6 +1,6 @@
 namespace RentAMovie.Model
 {
-    public class CustomerContact
+    public class CustomerContact : BaseModel
     {
         public long CustomerId { get; set; }
         public string CellPhone { get; set; }

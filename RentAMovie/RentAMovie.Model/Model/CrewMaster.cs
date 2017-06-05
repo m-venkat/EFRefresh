@@ -2,7 +2,7 @@ using System;
 
 namespace RentAMovie.Model
 {
-    public class CrewMaster
+    public class CrewMaster : BaseModel
     {
         public int CrewId { get; set; }
         public string Name { get; set; }

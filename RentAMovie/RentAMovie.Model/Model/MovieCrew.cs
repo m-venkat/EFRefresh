@@ -1,6 +1,6 @@
 namespace RentAMovie.Model
 {
-    public class MovieCrew
+    public class MovieCrew : BaseModel
     {
         public long MovieId { get; set; }
         public long MovieCrewId { get; set; }

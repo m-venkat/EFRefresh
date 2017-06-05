@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace RentAMovie.Model
 {
-    public class GenreMaster
+    public class GenreMaster : BaseModel
 
     {
     public GenreMaster()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RentAMovie.Model
 {
-    public class Customer
+    public class Customer : BaseModel
     {
         public Customer()
         {

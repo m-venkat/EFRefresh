@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace RentAMovie.Model
 {
-    public class CrewRole
+    public class CrewRole : BaseModel
     {
         public CrewRole()
         {

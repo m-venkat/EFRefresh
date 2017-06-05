@@ -50,6 +50,10 @@
     <Compile Include="Migrations\201705291410259_AllTablesAdded.Designer.cs">
       <DependentUpon>201705291410259_AllTablesAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706051236036_Added Created and Updated DateFields.cs" />
+    <Compile Include="Migrations\201706051236036_Added Created and Updated DateFields.Designer.cs">
+      <DependentUpon>201706051236036_Added Created and Updated DateFields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Address.cs" />
     <Compile Include="Model\AddressType.cs" />
@@ -92,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705291410259_AllTablesAdded.resx">
       <DependentUpon>201705291410259_AllTablesAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706051236036_Added Created and Updated DateFields.resx">
+      <DependentUpon>201706051236036_Added Created and Updated DateFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

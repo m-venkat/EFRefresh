@@ -1,6 +1,6 @@
 namespace RentAMovie.Model
 {
-    public class MovieMaster
+    public class MovieMaster : BaseModel
     {
         public long MovieId { get; set; }
         public string Name { get; set; }
